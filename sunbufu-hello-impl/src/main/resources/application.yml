@@ -1,0 +1,18 @@
+server: 
+  port: 8762
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: sunbufu-hello-impl
+    
+security:
+  basic:
+    enabled: true
+  user:
+    name: sunbufu
+    password: 123456
