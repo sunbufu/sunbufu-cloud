@@ -13,8 +13,8 @@ public class HelloController {
 	private HelloService helloService;
 
 	@RequestMapping("/hello")
-	public String hello(String name, String serverName) {
-		return helloService.hello(name, serverName);
+	public String hello(String name) {
+		return helloService.hello(name);
 	}
 
 }

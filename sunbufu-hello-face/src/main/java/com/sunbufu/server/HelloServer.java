@@ -1,7 +1,10 @@
 package com.sunbufu.server;
 
 public interface HelloServer {
-	
-	String hello(String name, String serverName);
+
+    /**
+     * 返回"hello,${name}"
+     */
+    String hello(String name);
 
 }

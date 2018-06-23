@@ -10,8 +10,8 @@ public class HelloController implements HelloServer {
 
 	@RequestMapping("/hello")
 	@Override
-	public String hello(String name, String serverName) {
-		return "hello," + name + " from server:" + serverName;
+	public String hello(String name) {
+		return "hello," + name;
 	}
 
 }

@@ -8,4 +8,4 @@ spring:
     config:
       server:
         native:
-          searchLocations: F:/conf
+          searchLocations: /Users/sunbufu/conf

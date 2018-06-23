@@ -12,6 +12,6 @@ public interface HelloService extends HelloServer {
 
 	@RequestMapping("/hello")
 	@Override
-	public String hello(@RequestParam("name") String name, @RequestParam("serverName") String serverName);
+	String hello(@RequestParam("name") String name);
 
 }
